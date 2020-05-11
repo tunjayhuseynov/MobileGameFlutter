@@ -1,5 +1,5 @@
 var app = require('express')();
-var http = require('http').createServer(app);
+var http = require('https').createServer(app);
 var io = require('socket.io')(http);
 var admin = require("firebase-admin");
 
